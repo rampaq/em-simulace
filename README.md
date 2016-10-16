@@ -1,3 +1,3 @@
 # em-simulace
 
-Web pro Simulaci Expedice Mars.
+Trello: https://trello.com/b/zfXwYYwp/em-simulace-web
