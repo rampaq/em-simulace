@@ -6061,3 +6061,11 @@ p > video {
 .site-navigation a {
 	font-variant: small-caps;
 }
+
+@media screen and (min-width: 59.6875em) {
+    .site-content{
+		margin-left: 30%;
+        margin-right: 0%;
+		width: 70%;
+    }
+}
