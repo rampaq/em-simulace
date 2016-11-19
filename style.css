@@ -46,6 +46,7 @@ Tags: blog, em-simulace
  */
 
 @import url('https://fonts.googleapis.com/css?family=Righteous&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway&subset=latin-ext');
 
 /**
  * 1.0 - Reset
@@ -6047,14 +6048,16 @@ p > video {
 }
 
 /* CUSTOM */
+
 body{
-    font-family: 'Righteous' !important;
+    font-family: 'Raleway', sans-serif !important;
 }
+
 
 .entry-title, h1 {
 	font-family: 'Righteous' !important;
 	font-variant: small-caps;
-	font-size: 2.2em;
+	font-size: 3em;
 }
 
 .site-title {
