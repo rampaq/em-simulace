@@ -4102,7 +4102,7 @@ p > video {
 		float: left;
 		margin-right: -100%;
 		max-width: 413px;
-		position: relative;
+		position: fixed;
 		width: 25%;
 	}
 
@@ -6062,7 +6062,8 @@ body{
 
 .site-title {
 	font-family: 'Righteous' !important;
-	font-size: 3.5em;
+	font-size: 1.2em;
+    text-align: center;
 }
 
 h2{
@@ -6072,6 +6073,16 @@ h2{
 .site-navigation a {
 	font-variant: small-caps;
 }
+
+.sidebar{
+    background-color: #08002d;
+}
+
+
+.social-navigation, .main-navigation{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
 
 @media screen and (min-width: 59.6875em) {
     .site-content{
