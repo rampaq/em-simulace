@@ -27,10 +27,7 @@ get_header(); ?>
             text-align: justify;
         }
         .pic-part{
-            position:relative;
-            max-width: 50%;
-            margin-left: auto;
-            margin-right: auto;
+            position:absolute;
         }
         .pic-res{
             display: none;
@@ -47,6 +44,33 @@ get_header(); ?>
         .text-part .odstavec4{
             margin-top: 5%;
         }
+        @media screen and (max-width: 60em) {
+            .text-part{
+                width: 70%;
+            }
+        }
+        @media screen and (max-width: 44em) {
+            .pic-part{
+                width: 100%;
+                position: relative;
+            }
+            .text-part{
+                width: 100%;
+                margin-right: 2%;
+            }
+            .text-part .odst{
+                margin-top: auto;
+            }
+            .text-part h2{
+                text-align: center;
+            }
+            .pic-part .pic-norm{
+                display: none;
+            }
+            .pic-res{
+                display: block;
+            }
+        }
 	</style>
 
 	<div id="primary" class="content-area">
@@ -54,13 +78,9 @@ get_header(); ?>
 			<article class="article">
                 <h1>Simulátor</h1>
                 <div class="pic-part">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-Main.png" class="pic-norm">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-1.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-2.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-3.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-4.png" class="pic-room">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/Ship.png" style="width:100%;" class="pic-norm">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/ShipSmall.png" style="width:100%;" class="pic-res">
                 </div>
-                <!--
                 <div class="text-part">
                     <div class="odstavec1 odst">
                     <h2>Hlavní modul</h2>
@@ -78,7 +98,7 @@ get_header(); ?>
                     <h2>Přistávací modul</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
                     </div>
-                </div>-->
+                </div>
 			</article>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
