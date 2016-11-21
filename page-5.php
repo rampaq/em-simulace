@@ -13,52 +13,55 @@
 
 get_header(); ?>
 	<style>
-        .article{
-            background: #fff;
-            border-top: 1px solid rgba(51, 51, 51, 0.1);
+        .hentry{
             padding: 2%;
-            margin-left: 1%;
-            padding-right: 0;
-        }
-        .text-part{
-            z-index: 0;
-            width: 75%;
-            position: relative;
-            text-align: justify;
+            padding-top: 1%;
         }
         .pic-part{
-            position:relative;
             max-width: 50%;
             margin-left: auto;
             margin-right: auto;
         }
-        .pic-res{
-            display: none;
+        .pic-room{
+            opacity: 0;
+            position: absolute;
         }
-        .text-part .odstavec1{
-            margin-top: 9%;
+        .pic-room:hover{
+            opacity: 100;
         }
-        .text-part .odstavec2{
-            margin-top: 12%;
+        .room1{
+            max-width: 17%;
+            left: 41.5%;
+            top: 18%;
         }
-        .text-part .odstavec3{
-            margin-top: 20%;
+        .room2{
+            max-width: 17%;
+            left: 41.5%;
+            top: 42%;
         }
-        .text-part .odstavec4{
-            margin-top: 5%;
+        .room3{
+            max-width: 15%;
+            left: 42.5%;
+            top: 60.5%;
         }
+        .room4{
+            max-width: 15%;
+            left: 42.5%;
+            top: 72%;
+        }
+        
 	</style>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<article class="article">
+			<article class="hentry article">
                 <h1>Simulátor</h1>
                 <div class="pic-part">
                     <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-Main.png" class="pic-norm">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-1.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-2.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-3.png" class="pic-room">
-                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-4.png" class="pic-room">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-1.png" class="pic-room room1">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-2.png" class="pic-room room2">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-3.png" class="pic-room room3">
+                    <img src="<?=get_bloginfo('template_directory');?>/img/simulator/Sim-4.png" class="pic-room room4">
                 </div>
                 <!--
                 <div class="text-part">

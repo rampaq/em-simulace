@@ -6071,30 +6071,18 @@ h2{
     font-size: 1.4em;
 }
 
-.site-navigation a {
-	font-variant: small-caps;
-}
-
-<<<<<<< HEAD
-.sidebar{
-    background-color: black;/*#08002d;*/
-=======
 .sidebar, body:before{
     background-color: #08002d !important;
->>>>>>> e82678c95f63bd37aa46db1926e474e113ecb040
+    font-family: 'Righteous' !important;
+    font-variant: small-caps;
 }
-
 
 .social-navigation, .main-navigation{
     margin-left: 10%;
     margin-right: 10%;
 }
-/*
-@media screen and (min-width: 59.6875em) {
-    .site-content{
-		margin-left: 30%;
-        margin-right: 0%;
-		width: 70%;
-    }
+
+.hentry{
+    padding: 2%;
+    padding-top: 1%;
 }
-*/
