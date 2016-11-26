@@ -29,7 +29,7 @@ get_header(); ?>
         .room1{
             max-width: 17%;
             left: 41.5%;
-            top: 18%;
+            top: 18.5%;
         }
         .room2{
             max-width: 17%;
