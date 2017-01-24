@@ -21,23 +21,26 @@ get_header(); ?>
             margin-right: 1%;
         }
 
+				.hlavni-pos{
+						margin-bottom: 2%;
+				}
+
 				.member{
-					box-shadow: 0px 0px 10px black;
-					height: 100%;
+						margin-bottom: 2%;
 				}
 
 				.member > div{
-						float:left;
+						float: left;
 				}
 
         .member-text{
-            width: 70%;
+            width: 75%;
             padding-right: 2%;
             margin-top: 4%;
             text-align: justify;
         }
         .member-pic{
-            width: 30%;
+            width: 25%;
             padding-right: 2%;
             padding-top: 4%;
             text-align: center;
@@ -66,7 +69,7 @@ get_header(); ?>
                 width: 100%;
             }
             .member-pic img{
-                max-width: 40%;
+                max-width: 30%;
             }
         }
 	</style>
@@ -74,28 +77,112 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<article class="article">
-                <div class="hlavni-pos">
-                <h1>Hlavní posádka roku 2017</h1>
-								<div class="member">
-								<div class="member-pic">
+        <div class="hlavni-pos">
+          <h1>Hlavní posádka roku 2017</h1>
+						<div class="member">
+							<div class="member-pic">
 								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
-								</div>
-								<div class="member-text">
+							</div>
+							<div class="member-text">
 								<h2>Samuel Matějíčka</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+						<div class="member">
+							<div class="member-pic">
+								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+							</div>
+							<div class="member-text">
+								<h2>Samuel Matějíčka</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+						<div class="member">
+							<div class="member-pic">
+								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+							</div>
+							<div class="member-text">
+								<h2>Samuel Matějíčka</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+						<div class="member">
+							<div class="member-pic">
+								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+							</div>
+							<div class="member-text">
+								<h2>Samuel Matějíčka</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+						<div class="member">
+							<div class="member-pic">
+								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+							</div>
+							<div class="member-text">
+								<h2>Samuel Matějíčka</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+        	</div>
+					<div class="zalozni-pos">
+	          <h1>Záložní posádka roku 2017</h1>
+							<div class="member">
+								<div class="member-pic">
+									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
 								</div>
+								<div class="member-text">
+									<h2>Samuel Matějíčka</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
 								</div>
-								<!--
-                    <div class="member">
-                        <div class="member-pic">
-
-												</div>
-                        <div class="member-text">
-
-
-                        </div>
-                    </div>-->
-                </div>
+							</div>
+							<div style="clear: both;"></div>
+							<div class="member">
+								<div class="member-pic">
+									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+								</div>
+								<div class="member-text">
+									<h2>Samuel Matějíčka</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+							<div class="member">
+								<div class="member-pic">
+									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+								</div>
+								<div class="member-text">
+									<h2>Samuel Matějíčka</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+							<div class="member">
+								<div class="member-pic">
+									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+								</div>
+								<div class="member-text">
+									<h2>Samuel Matějíčka</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+							<div class="member">
+								<div class="member-pic">
+									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
+								</div>
+								<div class="member-text">
+									<h2>Samuel Matějíčka</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisi elementum tincidunt convallis. Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.Vivamus consequat turpis blandit eleifend congue. Aenean sodales tincidunt dictum.</p>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+	        	</div>
 			</article>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
