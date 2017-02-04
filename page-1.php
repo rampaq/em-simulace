@@ -47,7 +47,7 @@ get_header(); ?>
 					</div>
 				</div>
 				-->
-				<?php masterslider(1); ?>
+				<?php //masterslider(1); ?>
 				<table class="full">
 				<h1 class="entry-title">Simulace Expedice Mars</h1>
 					<tr>
