@@ -34,17 +34,22 @@ get_header(); ?>
 			margin: 0 10%;
 		}
 
+
+
 	</style>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<article class="hentry" style="float: left;">
+			<article class="hentry" style="float: left; padding:0;">
+				<!--
 				<div class=header_cont style="width: 100%; height: 200px; float: left; margin-top: -9%;margin-bottom: 2em;">
 					<div class="bg" style="background: #d25302 url(<?=get_bloginfo('template_directory');?>/img/quality_header.png) no-repeat 50% 50%; background-size: cover; height: 100%;">
 					</div>
 				</div>
+				-->
+				<?php masterslider(1); ?>
 				<table class="full">
-				<h1>Simulace Expedice Mars</h1>
+				<h1 class="entry-title">Simulace Expedice Mars</h1>
 					<tr>
 						<th>Základní informace</th>
 					</tr>

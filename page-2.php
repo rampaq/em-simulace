@@ -77,7 +77,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<article class="hentry" style="float: left;">
-				<h1>O projektu</h1>
+				<h1 class="entry-title">O projektu</h1>
 				<table class="w_img">
 					<tr>
 						<th>Kdo jsme</th>
@@ -103,7 +103,7 @@ get_header(); ?>
 					</td>
 					</tr>
 				</table>
-
+<!--
 				<table class="full">
 					<tr>
 						<th>Posádka roku 2017</th>
@@ -114,13 +114,13 @@ get_header(); ?>
 						</td>
 					</tr>
 				</table>
-
+-->
 				<table class="w_img">
 				<tr>
 					<th>Místo</th>
 					<td rowspan="2" class="img" style="padding:0; position: relative;>
 						<span style="color: #fff;font-size:1px; line-height: 0.1;">.</span>
-						<?php echo do_shortcode('[gmap-embed id="97"]'); ?>
+						<?php echo do_shortcode('[gmap-embed id="48"]'); ?>
 					</td>
 				</tr>
 				<tr>

@@ -13,6 +13,7 @@
 
 get_header(); ?>
 	<style>
+	/*
         .article{
             background: #fff;
             border-top: 1px solid rgba(51, 51, 51, 0.1);
@@ -20,6 +21,7 @@ get_header(); ?>
             margin-left: 1%;
             margin-right: 1%;
         }
+        */
 
 				.hlavni-pos{
 						margin-bottom: 2%;
@@ -76,9 +78,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<article class="article">
+			<article class="hentry">
         <div class="hlavni-pos">
-          <h1>Hlavní posádka roku 2017</h1>
+        	<header class="entry-header">
+          		<h1 class="entry-title">Hlavní posádka roku 2017</h1>
+          	</header>
 						<div class="member">
 							<div class="member-pic">
 								<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">
@@ -131,7 +135,9 @@ get_header(); ?>
 						<div style="clear: both;"></div>
         	</div>
 					<div class="zalozni-pos">
-	          <h1>Záložní posádka roku 2017</h1>
+	        <header class="entry-header">
+          		<h1 class="entry-title">Záložní posádka roku 2017</h1>
+          	</header>
 							<div class="member">
 								<div class="member-pic">
 									<img src="<?=get_bloginfo('template_directory');?>/img/participant.jpg" alt="">

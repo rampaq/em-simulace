@@ -13,13 +13,6 @@
 
 get_header(); ?>
 	<style>
-        .article{
-            background: #fff;
-            border-top: 1px solid rgba(51, 51, 51, 0.1);
-            padding: 2%;
-            margin-left: 1%;
-            padding-right: 0;
-        }
         .text-part{
             z-index: 0;
             width: 75%;
@@ -75,8 +68,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<article class="article">
+			<article class="hentry">
+                <header class="entry-header">
                 <h1>Simulátor</h1>
+                </header>
                 <div class="pic-part">
                     <img src="<?=get_bloginfo('template_directory');?>/img/Ship.png" style="width:100%;" class="pic-norm">
                     <img src="<?=get_bloginfo('template_directory');?>/img/ShipSmall.png" style="width:100%;" class="pic-res">
